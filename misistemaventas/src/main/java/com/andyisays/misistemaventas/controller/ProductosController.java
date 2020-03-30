@@ -105,32 +105,7 @@ public class ProductosController {
     
     
     
-    //-----------------------------AÑADIR PROVEEDOR--------------
-    
-	@GetMapping(value="/showaddproveedor")
-	public String showAddPersona(Proveedor proveedor) {
-		
-		System.out.println("---------------Entrando add PRoveedor-------------");
-		return "add-proveedor";
-	}
-	
-	
-	
-	
-	@PostMapping(value="/addproveedor")
-	public String addProveedor(@Valid Proveedor proveedor, BindingResult result, Model model) {
-		if (result.hasErrors()) {
-			return "add-proveedor";
-		}
-		
-	
-		
-		proveedor = proveedorRepository.save(proveedor);
-		
-		System.out.println("---------------Metodo addProveedor-------------");
-		
-		return "redirect:/productos/agregar";
-	}
+
 	
     
    
