@@ -1,0 +1,59 @@
+<footer th:fragment="pie" class="px-2 py-2 fixed-bottom bg-dark" xmlns:th="http://www.w3.org/1999/xhtml">
+    <span class="text-muted">Sistema de ventas Spring Boot
+        <i class="fa fa-code"></i>
+        con
+        <i class="fa fa-heart"></i>
+        por
+        <a class="text-white" href="//parzibyte.me/blog">Parzibyte</a>
+    </span>
+    
+    
+   
+    <!-- JQuery -->
+  <!--  <script type="text/javascript" th:src="@{/js/jquery-3.2.0.min.js}"></script>-->
+  <!--Import https://www.devbridge.com/sourcery/components/jquery-autocomplete/#-->
+  <!--<script type="text/javascript" th:src="@{/js/jquery.autocomplete.js}"></script>-->
+  <!-- Compiled and minified JavaScript -->
+  <!--<script type="text/javascript" th:src="@{/js/materialize.min.js}"></script>-->
+
+  <!--Import materialize.css-->
+  <!--<link type="text/css" rel="stylesheet" th:href="@{/css/materialize.min.css}" media="screen,projection"/>-->
+  <!--Import Google Icon Font-->
+  <!--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+
+  <!-- <script>
+
+
+    $(document).ready(function() {
+
+      $('#autocomplete-input').devbridgeAutocomplete({
+          serviceUrl: '/suggestion',
+          paramName: 'searchstr',
+          minChars: 3,
+          autoSelectFirst: true,
+      });
+
+    });
+
+
+  </script>  --> 
+  
+  
+    <script type="text/javascript">
+        // Tomado de https://github.com/parzibyte/cotizaciones_web/blob/master/js/cotizaciones.js#L2
+        document.addEventListener("DOMContentLoaded", () => {
+            const menu = document.querySelector("#menu"),
+                botonMenu = document.querySelector("#botonMenu");
+            if (menu) {
+                botonMenu.addEventListener("click", () => menu.classList.toggle("show"));
+            }
+        });
+    </script>
+    
+		
+  
+  
+
+    
+</footer>

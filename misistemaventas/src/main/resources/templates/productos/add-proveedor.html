@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="#" th:action="@{addproveedor}" th:object="${proveedor}" method="post">
+    
+    
+    <label for="id">ID PROVEEDOR</label>
+    <input type="text" th:field="*{idProveedor}" id="idProveedor" placeholder="ID">
+    <span th:if="${#fields.hasErrors('id')}" th:errors="*{idProveedor}"></span>
+    
+    
+    <label for="nombre">Nombre</label>
+    <input type="text" th:field="*{nombre}" id="nombre" placeholder="Nombre">
+    <span th:if="${#fields.hasErrors('nombre')}" th:errors="*{nombre}"></span>
+    
+    
+    <label for="equipo">Id Equipo</label> 
+	<input type="text" th:field="*{producto.id}"	id="producto.id" value="producto.id"> 
+	
+	
+    <input type="submit" value="Añadir Proveedor">   
+</form>
+</body>
+</html>
