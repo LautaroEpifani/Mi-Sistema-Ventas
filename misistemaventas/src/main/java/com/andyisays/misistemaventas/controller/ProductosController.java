@@ -10,7 +10,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.andyisays.misistemaventas.model.Producto;
 import com.andyisays.misistemaventas.model.Proveedor;
 import com.andyisays.misistemaventas.repository.ProductosRepository;
-import com.andyisays.misistemaventas.repository.ProveedorRepository;
+import com.andyisays.misistemaventas.repository.ProveedoresRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,7 @@ public class ProductosController {
     
     
     @Autowired
-    private ProveedorRepository proveedorRepository;
+    private ProveedoresRepository proveedorRepository;
 
     @GetMapping(value = "/agregar")
     public String agregarProducto(Model model) {

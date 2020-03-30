@@ -5,11 +5,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.andyisays.misistemaventas.model.Proveedor;
 
-
-
-	
-	public interface ProveedorRepository extends JpaRepository<Proveedor, Long>, 
-	PagingAndSortingRepository<Proveedor,Long> {
+public interface ProveedoresRepository extends JpaRepository<Proveedor, Long> {
 	
 	
 	//@Query("SELECT p FROM Persona p")
