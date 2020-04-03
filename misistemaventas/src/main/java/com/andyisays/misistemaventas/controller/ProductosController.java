@@ -26,7 +26,7 @@ import javax.validation.Valid;
 public class ProductosController {
     @Autowired
     private ProductosRepository productosRepository;
-    //MIERDA
+    //MIERDA1
     
     @Autowired
     private ProveedoresRepository proveedoresRepository;
