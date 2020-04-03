@@ -26,7 +26,7 @@ import javax.validation.Valid;
 public class ProductosController {
     @Autowired
     private ProductosRepository productosRepository;
-    //MIERDA12
+    
     
     @Autowired
     private ProveedoresRepository proveedoresRepository;
@@ -36,6 +36,8 @@ public class ProductosController {
     @GetMapping(value = "/mostrar")
     public String mostrarProductos(Model model) {
         model.addAttribute("productos", productosRepository.findAllProduProveedor()); 
+        
+        
         return "productos/ver_productos";
     }
 
@@ -106,6 +108,8 @@ public class ProductosController {
     @GetMapping(value = "/editar/{id}")
     public String mostrarFormularioEditar(@PathVariable int id, Model model) {
         model.addAttribute("producto", productosRepository.findById(id).orElse(null));
+        model.addAttribute("listaProveedores", proveedoresRepository.findAll());
+		
         return "productos/editar_producto";
     }
 

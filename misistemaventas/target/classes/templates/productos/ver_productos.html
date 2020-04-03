@@ -20,7 +20,7 @@
                     <th>Código</th>
                     <th>Precio</th>
                     <th>Existencia</th>
-                    	<th>Num Proveedor</th>
+                    	<th>Proveedor</th>
                     <th>Editar</th>
                     <th>Eliminar</th>
                    
@@ -32,7 +32,7 @@
                     <td th:text="${producto.codigo}"></td>
                     <td th:text="${producto.precio}"></td>
                     <td th:text="${producto.existencia}"></td>
-                    <td th:text="${producto.proveedores}"></td>
+                    <td th:text="${producto.proveedores[0].nombre}"></td>
                     <td>
                         <a class="btn btn-warning" th:href="@{/productos/editar/} + ${producto.id}">Editar <i
                                 class="fa fa-edit"></i></a>

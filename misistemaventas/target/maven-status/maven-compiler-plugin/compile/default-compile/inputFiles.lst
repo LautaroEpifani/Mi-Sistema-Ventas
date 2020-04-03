@@ -1,15 +1,15 @@
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\ProductosController.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProductosRepository.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\VentasController.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProductosVendidosRepository.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\ProductoParaVender.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Proveedor.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\MiSistemaVentasApplication.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProveedoresRepository.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\VentasRepository.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Producto.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Venta.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\ProveedoresController.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\ProductoVendido.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\VenderController.java
-C:\Users\Thinkpad\Desktop\Formacion Java\JAVA APPS\misistemaventas\src\main\java\com\andyisays\misistemaventas\util\Utiles.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\ProveedoresController.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\ProductoParaVender.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProductosRepository.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\VentasRepository.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\ProductoVendido.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\ProductosController.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Proveedor.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Producto.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProductosVendidosRepository.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\util\Utiles.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\MiSistemaVentasApplication.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\repository\ProveedoresRepository.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\VenderController.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\controller\VentasController.java
+C:\Users\Thinkpad\git\misistemaventasrepository\misistemaventas\src\main\java\com\andyisays\misistemaventas\model\Venta.java

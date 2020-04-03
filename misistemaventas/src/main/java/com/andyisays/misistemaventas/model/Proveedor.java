@@ -62,7 +62,7 @@ public class Proveedor  {
  	private String telefono;
  	
  	
- 	@ManyToMany(cascade = CascadeType.MERGE)
+ 	@ManyToMany(cascade = CascadeType.REMOVE)
 	@JoinTable(name = "tb_fk_producto_proveedor",  
     joinColumns = @JoinColumn(name="proveedor_id", referencedColumnName="ID", nullable=false), 
     inverseJoinColumns = @JoinColumn(name = "producto_id", referencedColumnName="ID", nullable=false))
