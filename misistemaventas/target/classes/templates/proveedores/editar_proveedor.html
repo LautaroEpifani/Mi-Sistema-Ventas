@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="master">
+<body>
+<main layout:fragment="contenido">
+    <div class="col-12">
+        <h2>Editar proveedor </h2>
+        <form th:object="${proveedor}" th:action="@{/proveedores/editar/} + ${proveedor.id}" method="post">
+            <input type="hidden" th:field="*{id}">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input autocomplete="off" autofocus th:field="*{nombre}" id="nombre"
+                       placeholder="Escribe el nombre del producto" type="text"
+                       class="form-control" th:classappend="${#fields.hasErrors('nombre')} ? 'is-invalid' : ''">
+                <div class="invalid-feedback" th:errors="*{nombre}"></div>
+            </div>
+            <div class="form-group">
+                <label for="codigo">Sector</label>
+                <input autocomplete="off" th:field="*{sector}" id="sector" placeholder="Sector"
+                       type="text"
+                       class="form-control" th:classappend="${#fields.hasErrors('sector')} ? 'is-invalid' : ''">
+                <div class="invalid-feedback" th:errors="*{sector}"></div>
+            </div>
+            <div class="form-group">
+                <label for="existencia">Direccion</label>
+                <input autocomplete="off" th:field="*{direccion}" id="direccion"
+                       placeholder="Cantidad actual del producto" type="text"
+                       class="form-control" th:classappend="${#fields.hasErrors('direccion')} ? 'is-invalid' : ''">
+                <div class="invalid-feedback" th:errors="*{direccion}"></div>
+            </div>
+            <div class="form-group">
+                <label for="existencia">Telefono</label>
+                <input autocomplete="off" th:field="*{telefono}" id="telefono" placeholder="Telefono"
+                       type="number"
+                       class="form-control" th:classappend="${#fields.hasErrors('telefono')} ? 'is-invalid' : ''">
+                <div class="invalid-feedback" th:errors="*{telefono}"></div>
+            </div>
+            <button class="btn btn-success" type="submit">Guardar</button>
+            &nbsp;<a class="btn btn-warning" th:href="@{/proveedores/mostrar}">Ver todos</a>
+        </form>
+    </div>
+   
+    
+</main>
+</body>
+</html>
