@@ -32,7 +32,9 @@
                     <td th:text="${producto.codigo}"></td>
                     <td th:text="${producto.precio}"></td>
                     <td th:text="${producto.existencia}"></td>
-                    <td th:each="a: ${producto.proveedores}" th:text="${a.nombre}"></td>
+                    <td >
+                    	<p th:each="proveedor: ${producto.proveedores}" th:text="${proveedor.nombre}"> </p>
+                    </td>
                     <td>
                         <a class="btn btn-warning" th:href="@{/productos/editar/} + ${producto.id}">Editar <i
                                 class="fa fa-edit"></i></a>
